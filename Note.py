@@ -114,7 +114,6 @@ def secondtext():
                 found_start = i
             if file_list[i] == ("----*C*----10 1----*C*----"):
                 end_found = i
-        print(found)
         if found:
             for i in range(found_start,end_found):
                 if file_list[i] != ("----*O*----10 1----*O*----"):
